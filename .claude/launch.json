@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "three-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "-p", "3333"],
+      "port": 3333
+    },
+    {
+      "name": "three-local",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "serve@14", "out", "-l", "4333", "--no-clipboard"],
+      "port": 4333
+    }
+  ]
+}
